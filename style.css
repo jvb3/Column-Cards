@@ -36,7 +36,8 @@
     flex-direction: column;
     gap: 1.1rem;
     border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+
 
 
 }
@@ -59,7 +60,7 @@
     display: flex;
     flex-direction: column;
     gap: 1.1rem;
-    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 
 }
@@ -178,6 +179,20 @@
     .text {
         padding-bottom: 1.5rem;
 
+    }
+
+    .sedan-card {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 8px;
+        border-top-left-radius: 8px;
+    }
+
+    .luxury-card {
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
     }
 
 }
